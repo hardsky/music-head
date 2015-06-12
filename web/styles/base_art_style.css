@@ -1,0 +1,292 @@
+﻿@import url(http://localhost:1994/web/styles/base_style.css);
+@import url(http://localhost:1994/web/styles/grid_style.css);
+
+.csCenterColumnWithLeft /*with left column (and left vertical menu)*/
+{
+    margin: 0 180px 0 230px;
+    width: auto;
+    padding: 0;
+    text-align: left;
+}
+
+.csArtAvatar
+{
+    height: 248px;
+    width: 210px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.csAvatarBG
+{
+    width: 214px;
+    
+    background: transparent url(http://localhost:1994/web/img/avatar_left.png) no-repeat scroll 0 0;
+    padding: 0 0 0 4px;
+}
+
+.csAvatarBG div
+{
+    background: transparent url(http://localhost:1994/web/img/avatar_right.png) no-repeat scroll right 0;
+    padding: 0 4px 0 0;    
+}
+
+.csAvatarBG div div
+{
+    background-image: none;
+    height: 248px;
+    padding: 4px 0;
+    border-bottom: solid 1px #8c8887;
+    border-top: solid 1px #8c8887;
+    text-align: center;
+}
+
+.csLabel
+{
+    font-size: 12px;
+    font-family: Verdana;
+    font-weight: bold;
+    color: #e97e48;
+}
+
+.csInfoForm div
+{
+    margin-bottom: 30px;    
+}
+.csInfoForm div div
+{
+    margin-bottom: 12px;
+}
+
+.dvInformTableDiv
+{
+    padding: 3px 24px 12px 24px; 
+    background-color: #393030; 
+    margin-bottom: 0px !important;
+}
+.tblInformTable
+{
+    margin-top: 0px;
+    border-bottom-style: none;
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+    background-color: #393030;
+}
+.tblInformTable_Header
+{
+    background-color: #393030;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: left;
+    height: 25px;
+    color: #d97643;
+}
+.tblInformTable_Header a
+{
+    color: #d97643;
+    text-decoration: none;
+}
+.tblInformTable_Row
+{
+    background-color: #393030;
+    color: White;
+    font-family: Verdana;
+    font-size: 12px;
+}
+.tblInformTable_Row td
+{
+    padding-top: 14px;
+}
+
+.tblInformTable_Row a
+{
+    color: White;
+    font-family: Verdana;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.tblInformTable_AltRow
+{
+    color: #898686;
+    font-family: Verdana;
+    font-size: 10px;
+    height: 40px;
+}
+
+.dvHeadSeparatorInformTable
+{
+    background: transparent url(http://localhost:1994/web/img/grid_separator_bg.png) repeat-x;
+    height: 3px;    
+}
+
+.dvHeadInformTable
+{
+    background: transparent url(http://localhost:1994/web/img/grid_head_bg_lgt.png) no-repeat scroll 0 0;
+    padding: 0 0 0 2px;
+    margin-bottom: 0 !important;
+}
+.dvHeadInformTable div
+{
+    background: transparent url(http://localhost:1994/web/img/grid_head_bg_rgt.png) no-repeat scroll right 0;
+    padding: 0 2px 0 0;
+    margin-bottom: 0px !important;
+}
+
+.dvHeadInformTable div div
+{
+    background-image: none;
+    height: 16px;
+    background-color: #393030;
+    margin-bottom: 0px !important;
+}
+
+.dvFootInformTable
+{
+    background: transparent url(http://localhost:1994/web/img/grid_foot_bg_lgt.png) no-repeat scroll 0 0;
+    padding: 0 0 0 2px;
+    margin-top: 0 !important;
+}
+.dvFootInformTable div
+{
+    background: transparent url(http://localhost:1994/web/img/grid_foot_bg_rgt.png) no-repeat scroll right 0;
+    padding: 0 2px 0 0;
+    margin-top: 0px !important;
+}
+
+.dvFootInformTable div div
+{
+    background-image: none;
+    height: 3px;
+    background-color: #393030;
+    margin-top: 0px !important;
+}
+
+.dvMyMenuItem
+{
+    font-family: Tahoma;
+    font-size: 15px;
+    width: 214px;
+    background: transparent url(http://localhost:1994/web/img/mymenu_bg_lgt.png) no-repeat scroll 0 0;
+    padding: 0 0 0 3px;
+    margin: 3px 0;
+}
+.dvMyMenuItem div
+{
+    width: auto;
+    background: transparent url(http://localhost:1994/web/img/mymenu_bg_rgt.png) no-repeat scroll right 0;
+    padding: 0 3px 0 0;    
+}
+.dvMyMenuItem div div
+{
+    width: auto;
+    background-image: none;
+    height: 21px;
+    padding: 3px 20px;
+    border-bottom: solid 1px #8c8887;
+    border-top: solid 1px #8c8887;
+    text-align: left;
+    background-color: #332f2d;
+}
+.dvMyMenuItem a
+{
+    font-family: Tahoma;
+    font-size: 15px;
+    color: #d6d5d5;
+    text-decoration: none;
+}
+
+.dvSelectedMenuItem
+{
+    font-family: Tahoma;
+    font-size: 15px;
+    width: 214px;
+    background: transparent url(http://localhost:1994/web/img/mymenu_select_bg_lgt.png) no-repeat scroll 0 0;
+    padding: 0 0 0 3px;
+    margin: 3px 0;
+}
+.dvSelectedMenuItem div
+{
+    width: auto;
+    background: transparent url(http://localhost:1994/web/img/mymenu_select_bg_rgt.png) no-repeat scroll right 0;
+    padding: 0 3px 0 0;    
+}
+.dvSelectedMenuItem div div
+{
+    width: auto;
+    background-image: none;
+    height: 21px;
+    padding: 3px 20px;
+    border-bottom: solid 1px #8c8887;
+    border-top: solid 1px #8c8887;
+    text-align: left;
+    background-color: Black;
+}
+.dvSelectedMenuItem a
+{
+    font-family: Tahoma;
+    font-size: 15px;
+    color: #e97e48;
+    text-decoration: none;
+}
+
+.dvMyMenuItem:hover
+{
+    font-family: Tahoma;
+    font-size: 15px;
+    width: 214px;
+    background: transparent url(http://localhost:1994/web/img/mymenu_select_bg_lgt.png) no-repeat scroll 0 0;
+    padding: 0 0 0 3px;
+    margin: 3px 0;
+}
+.dvMyMenuItem:hover div
+{
+    width: auto;
+    background: transparent url(http://localhost:1994/web/img/mymenu_select_bg_rgt.png) no-repeat scroll right 0;
+    padding: 0 3px 0 0;    
+}
+.dvMyMenuItem:hover div div
+{
+    width: auto;
+    background-image: none;
+    height: 21px;
+    padding: 3px 20px;
+    border-bottom: solid 1px #8c8887;
+    border-top: solid 1px #8c8887;
+    text-align: left;
+    background-color: Black;
+}
+.dvMyMenuItem:hover a
+{
+    font-family: Tahoma;
+    font-size: 15px;
+    color: #e97e48;
+    text-decoration: none;
+}
+
+.lbArtName
+{
+    font-family: Tahoma;
+    font-size: 25px;
+    color: #e97e48;
+}
+
+.csLogoutBtn
+{
+    line-height: 50px;
+    text-align:right;
+}
+.csLogoutBtn a
+{
+    text-decoration: none;
+    color: #c8c3c3;
+}
+.csLogoutBtn span
+{
+    text-decoration: underline;
+}

@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPageArt.master" AutoEventWireup="true" CodeFile="MasterPageMy.master.cs" Inherits="MasterPageMy" %>
+<%@ Register src="UIControls/VerticalMenu.ascx" tagname="VerticalMenu" tagprefix="uc1" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <asp:ContentPlaceHolder ID="MyHead" runat="server">
+         <link charset="utf8" href="http://localhost:1994/web/styles/base_art_style.css" type="text/css" rel="Stylesheet" />
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="leftColumn" Runat="Server">
+    <div id="dvAvatar" runat="server" class="csAvatarBG">
+        <div>
+            <div>
+                <asp:Image ID="imgAvatar" CssClass="csArtAvatar" runat="server" />
+            </div>                
+        </div>
+    </div>
+    <uc1:verticalmenu ID="ctrMyMenu" runat="server" Visible="false" />
+    <div id="dvLogoutBtn" class="csLogoutBtn" runat="server" visible="false">
+        <asp:LinkButton ID="btnLogout" runat="server" onclick="btnLogout_Click">
+          <span>Выйти</span><asp:Image ID="Image2" ImageUrl="~/img/btn_logout.png" runat="server" />
+        </asp:LinkButton>    
+    </div>    
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="rightColumn" Runat="Server">
+    <asp:ContentPlaceHolder ID="MyRightColumn" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="centerColumn" Runat="Server">
+    <asp:ContentPlaceHolder ID="MyCenterColumn" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+

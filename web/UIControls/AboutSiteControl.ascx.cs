@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class UIControls_AboutSiteControl : TabControl
+{
+    public UIControls_AboutSiteControl()
+    {
+        m_Code = 42;
+        bDoLocalize = false;
+    }
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        LocalizeControls();
+    }
+
+    public override void FillForm()
+    {
+
+    }
+}

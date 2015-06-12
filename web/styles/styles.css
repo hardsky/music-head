@@ -1,0 +1,18 @@
+﻿
+@import url(http://localhost:1994/web/styles/base_style.css);
+@import url(http://localhost:1994/web/styles/grid_style.css);
+
+.csLogoutBtn
+{
+    line-height: 50px;
+    text-align:right;
+}
+.csLogoutBtn a
+{
+    text-decoration: none;
+    color: #c8c3c3;
+}
+.csLogoutBtn span
+{
+    text-decoration: underline;
+}

@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageArt.master.cs" Inherits="MasterPageArt" %>
+
+<%@ Register src="UIControls/MainMenu.ascx" tagname="MainMenu" tagprefix="uc1" %>
+
+<%@ Register src="UIControls/Language.ascx" tagname="Language" tagprefix="uc3" %>
+
+<%@ Register src="UIControls/FootMenu.ascx" tagname="FootMenu" tagprefix="uc4" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>       
+    <asp:ContentPlaceHolder id="head" runat="server">
+     <link charset="utf8" href="http://localhost:1994/web/styles/base_art_style.css" type="text/css" rel="Stylesheet" />
+    </asp:ContentPlaceHolder>
+</head>
+<body class="template_body">
+    <form id="form1" runat="server">
+    <div id="dvMain">
+        <div id="dvHeadBGLight">
+            <div id="dvHead">
+                <uc3:Language ID="Language1" runat="server" />
+                <div class="ClearFix"></div>
+                <div id="csImgLogoDiv">
+                    <asp:Image ID="Image1" CssClass="csImgLogo" ImageUrl="~/img/logo2.png" AlternateText="Music-head.net" runat="server" />
+                </div>
+                <div class="ClearFix"></div>
+                <uc1:MainMenu ID="MainMenu1" runat="server" />
+                <div class="ClearFix"></div>
+            </div>
+        </div>
+        <div id="dvContent">
+            <div id="dvLeftColumn">
+                <asp:ContentPlaceHolder ID="leftColumn" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="dvRightColumn">
+                <asp:ContentPlaceHolder ID="rightColumn" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="dvCentrColumn" class="csCenterColumnWithLeft">
+                <asp:ContentPlaceHolder id="centerColumn" runat="server">
+                
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div class="ClearFix"></div>
+        <div id="dvFooter">
+            <span id="spCopyright">&copy; 2009, Music-head.net</span>        
+            <uc4:FootMenu ID="FootMenu1" runat="server" />
+        </div>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,72 @@
+﻿@import url(http://localhost:1994/web/styles/base_simple_style.css);
+@import url(http://localhost:1994/web/styles/tab_style.css);
+@import url(http://localhost:1994/web/styles/grid_style.css);
+@import url(http://localhost:1994/web/styles/filter_style.css);
+
+.dvHeadChartTable
+{
+    background: transparent url(http://localhost:1994/web/img/charttbl_head_bg_lgt.png) no-repeat scroll 0 0;
+    padding: 0 0 0 2px;
+    margin-bottom: 0 !important;
+}
+.dvHeadChartTable div
+{
+    background: transparent url(http://localhost:1994/web/img/charttbl_head_bg_rgt.png) no-repeat scroll right 0;
+    padding: 0 2px 0 0;
+    margin-bottom: 0px !important;
+}
+
+.dvHeadChartTable div div
+{
+    background-image: none;
+    height: 2px;
+    background-color: #474140;
+    margin-bottom: 0px !important;
+}
+
+.dvChartTableDiv
+{
+    padding: 3px 24px 12px 24px; 
+    background-color: #474140;
+    margin-bottom: 0px !important;
+}
+
+.dvLookingNotice
+{
+    margin-top: 10px;
+    margin-bottom: 15px;    
+}
+.tblLookingFilter
+{
+    margin-bottom: 15px;
+}
+.tblLookingFilter td
+{
+    vertical-align: top;
+}
+.tblLookingFilter td span
+{
+    display: block;
+    margin-top: 5px;
+}
+
+.dvFootChartTable
+{
+    background: transparent url(http://localhost:1994/web/img/charttbl_foot_bg_lgt.png) no-repeat scroll 0 0;
+    padding: 0 0 0 2px;
+    margin-top: 0 !important;
+}
+.dvFootChartTable div
+{
+    background: transparent url(http://localhost:1994/web/img/charttbl_foot_bg_rgt.png) no-repeat scroll right 0;
+    padding: 0 2px 0 0;
+    margin-top: 0px !important;
+}
+
+.dvFootChartTable div div
+{
+    background-image: none;
+    height: 2px;
+    background-color: #474140;
+    margin-top: 0px !important;
+}

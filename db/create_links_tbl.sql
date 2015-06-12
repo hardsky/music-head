@@ -1,0 +1,14 @@
+CREATE  TABLE IF NOT EXISTS `gb_x_music118`.`links_change` (
+  `Id` BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT ,
+  `url` VARCHAR(45) CHARACTER SET 'utf8' COLLATE 'utf8_unicode_ci' NULL DEFAULT NULL ,
+  `descr` VARCHAR(512) CHARACTER SET 'utf8' COLLATE 'utf8_unicode_ci' NULL DEFAULT NULL ,
+  `created` DATETIME NULL DEFAULT NULL ,
+  `updated` DATETIME NULL DEFAULT NULL ,
+  `is_link_on_me` BIT(1) NULL DEFAULT NULL ,
+  `LangId` BIGINT(20) UNSIGNED NULL DEFAULT NULL ,
+  `IsPublished` BIT(1) NULL DEFAULT NULL ,
+  PRIMARY KEY (`Id`) )
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci
+COMMENT = 'links to other sites'

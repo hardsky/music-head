@@ -1,0 +1,43 @@
+﻿.tblGridTable
+{
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+	margin-bottom: 7px;	
+}
+.tblGridTable_Header
+{
+    /*background: transparent url(http://localhost:1994/web/img/tbl_bg_head.png) repeat-x;*/
+    background-color: #373131;/*#2c2424;*/
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    height: 35px;
+}
+.tblGridTable_Header a
+{
+    color: White;
+}
+.tblGridTable_Row
+{
+    height: 50px;
+    background-color: #4c4745;
+    color: White;
+    font-family: Verdana;
+    font-size: 14px;
+}
+
+.tblGridTable_Row td
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tblGridTable_Row a
+{
+    color: White;
+    font-family: Verdana;
+    font-size: 14px;
+    text-decoration: underline;
+}

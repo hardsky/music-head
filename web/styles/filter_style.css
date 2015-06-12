@@ -1,0 +1,67 @@
+﻿
+.csFilterInput
+{
+    background: transparent url(http://localhost:1994/web/img/login_textbox_lgt.png) no-repeat scroll 0 0;
+    padding: 0 0 0 5px;
+    width: 150px;
+    vertical-align: baseline;
+    float: left;
+}
+.csFilterInput div
+{
+    background: transparent url(http://localhost:1994/web/img/login_textbox_rgt.png) no-repeat scroll right 0;
+    padding: 0 5px 0 0;
+}
+
+.csFilterInput div div
+{
+    background: transparent url(http://localhost:1994/web/img/login_textbox_bg.png) repeat-x scroll 0 0;    
+    height: 24px;
+    padding: 3px 0 3px 0;
+}
+
+.csFilterInput div div input
+{
+    font-family: Verdana;
+    font-size: 12px;    
+    /*color: #a29a9a;*/
+    color: Black;
+    height: 18px;
+    width: 140px;
+    border-width: 0;
+    outline-style: none;    
+    outline-width: medium;
+    outline-color: inherit;
+    vertical-align: baseline;
+}
+.csFilterInput div div select
+{
+    font-family: Verdana;
+    font-size: 12px;    
+    /*color: #a29a9a;*/
+    color: Black;
+    height: 18px;
+    width: 140px;
+    border-width: 0;
+    outline-style: none;    
+    outline-width: medium;
+    outline-color: inherit;
+    vertical-align: baseline;
+}
+
+.dvFilter
+{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.dvFilter table td
+{
+    padding-bottom: 5px;
+}
+
+.dvFilter table td span
+{
+    display: block;
+    margin-bottom: 5px;
+}

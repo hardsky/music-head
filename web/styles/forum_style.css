@@ -1,0 +1,14 @@
+﻿@import url(http://localhost:1994/web/styles/base_simple_style.css);
+@import url(http://localhost:1994/web/styles/grid_style.css);
+@import url(http://localhost:1994/web/styles/comment_style.css);
+
+.csForumNav
+{
+    width: 100%;
+    color: White;
+    margin-bottom: 5px;    
+}
+.csForumNav a
+{
+    color: White;
+}

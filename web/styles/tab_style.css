@@ -1,0 +1,77 @@
+﻿
+/*Tab menu*/
+.csTabMenu
+{
+    width: 100%;
+    text-align: left;
+    height: 30px;    
+}
+.csTabMenu div
+{
+/*    border: solid 1px white;*/
+}
+.csTabMenuItem
+{
+    margin: 3px 1px 0 0;
+    width: 126px;
+    float: left;
+    position: relative;
+
+    background: transparent url(http://localhost:1994/web/img/chartmenuitem_bg_lgt.png) no-repeat scroll 0 0;
+    padding: 0 0 0 3px;
+}
+.csTabMenuItem div
+{
+    background: transparent url(http://localhost:1994/web/img/chartmenuitem_bg_rgt.png) no-repeat scroll right 0;
+    padding: 0 3px 0 0 !important;
+    margin: 0 !important;
+}
+.csTabMenuItem div div
+{
+    background: transparent url(http://localhost:1994/web/img/chartmenuitem_bg.png) repeat-x scroll 0 0;
+    height: 24px;
+    padding: 3px 0 0 0 !important;
+    margin: 0 !important;
+    text-align: center;
+}
+.csTabMenuItem div div a
+{
+    color: White;
+}
+
+.csTabMenuItemSelected
+{
+    position: relative;
+    z-index: 1000;
+    height: 30px;
+    width: 127px;
+    float: left;
+}
+.csTabMenuItemSelectedCenter
+{
+    padding-top: 5px;    
+    background-color: #474140;
+    height: 29px;
+    text-align: center;        
+}
+.dvTabMenuHeadTable
+{
+    background: transparent url(http://localhost:1994/web/img/charttbl_head_bg_lgt.png) no-repeat scroll 0 0;
+    padding: 0 0 0 2px;
+    margin-bottom: 0 !important;
+}
+.dvTabMenuHeadTable div
+{
+    background: transparent url(http://localhost:1994/web/img/charttbl_head_bg_rgt.png) no-repeat scroll right 0;
+    padding: 0 2px 0 0;
+    margin-bottom: 0px !important;
+}
+
+.dvTabMenuHeadTable div div
+{
+    background-image: none;
+    height: 2px;
+    background-color: #474140;
+    margin-bottom: 0px !important;
+}
+/*end Tab menu*/

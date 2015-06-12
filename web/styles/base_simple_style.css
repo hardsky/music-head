@@ -1,0 +1,52 @@
+﻿@import url(http://localhost:1994/web/styles/base_style.css);
+
+.csCenterColumnSimple /*without left column and vertical menu*/
+{
+    text-align: left;
+    margin: 0 180px 0 0;
+    width: auto;
+    padding: 0;
+    text-align: left;
+}
+
+.csTopReg
+{
+    width: 205px; 
+    float: right;
+    font-family: Verdana;
+    font-size: 11px;
+    color: White;
+}
+
+.csTopReg a
+{
+    font-family: Verdana;
+    font-size: 11px;
+    color: White;
+    text-decoration: underline;    
+}
+
+.csTopExit
+{
+    width: 150px; 
+    float: right;
+    font-family: Verdana;
+    font-size: 11px;
+    color: White;
+}
+
+.csTopExit a
+{
+    font-family: Verdana;
+    font-size: 11px;
+    color: White;
+    text-decoration: underline;    
+}
+
+.folks_feed
+{
+	text-decoration: none;
+	display: block;
+	float:right;
+	width: 100px;
+}

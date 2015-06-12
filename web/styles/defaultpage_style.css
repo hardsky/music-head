@@ -1,0 +1,436 @@
+﻿@import url(http://localhost:1994/web/styles/base_style.css);
+@import url(http://localhost:1994/web/styles/tab_style.css);
+
+#dvCentrColumnDefaultPage
+{
+    margin: 0 180px 0 170px;
+    width: auto;
+    padding: 0;
+    text-align: left;
+}
+
+.login_field
+{
+    background: transparent url(http://localhost:1994/web/img/email.png) no-repeat scroll 4px 3px;
+    height: 18px;
+    width: 112px;
+    border-width: 0;
+    outline-style: none;    
+    outline-width: medium;
+    outline-color: inherit;
+    vertical-align: baseline;
+}
+.psw_field
+{
+    height: 18px;
+    width: 112px;
+    border-width: 0;
+    outline-style: none;    
+    outline-width: medium;
+    outline-color: inherit;
+    vertical-align: baseline;
+}
+.login_btn
+{
+    width: 100px;
+    line-height: 50px;
+    text-align:right;
+}
+.login_btn a
+{
+    text-decoration: none;
+    color: #c8c3c3;
+}
+.login_btn span
+{
+    text-decoration: underline;
+}
+.login_btn img
+{
+    display: inline;    
+}
+
+.csRoundInput
+{
+    background: transparent url(http://localhost:1994/web/img/login_textbox_lgt.png) no-repeat scroll 0 0;
+    padding: 0 0 0 5px;
+    width: 119px;
+    vertical-align: baseline;
+    float: left;
+}
+.csRoundInput div
+{
+    background: transparent url(http://localhost:1994/web/img/login_textbox_rgt.png) no-repeat scroll right 0;
+    padding: 0 5px 0 0;
+}
+
+.csRoundInput div div
+{
+    background: transparent url(http://localhost:1994/web/img/login_textbox_bg.png) repeat-x scroll 0 0;    
+    height: 24px;
+    padding: 3px 0 3px 0;
+}
+
+.login_auth
+{
+    font-size: 18px;
+    font-family: Tahoma;
+    font-weight: normal;
+    color: #c8c3c3;
+    width: 111px;
+}
+
+.login_reg
+{
+    font-size: 11px;
+    font-family: Verdana;    
+    font-weight: normal;
+    line-height: 20px;
+}
+.login_reg a
+{
+    color: White;
+}
+
+.csRightNews
+{
+    line-height: 17px;
+}
+.csRightH
+{
+    font-family: Tahoma;
+    font-size: 19px;
+    font-weight: normal;
+    color: #e97e48;    
+}
+.csRightDate
+{
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: bold;
+    color: #a4a1a1;
+    margin-bottom: 5px;
+}
+.csRightContent
+{
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: normal;
+    color: White;
+    margin-bottom: 20px;
+}
+
+.csCenterH
+{
+    font-family: Tahoma;
+    font-size: 25px;
+    font-weight: normal;
+}
+.csCenterH span
+{
+    color: White;
+}
+.csCenterH span span
+{
+    color: #e97e48 !important;
+}
+
+.csCenterContent
+{
+    /*
+    width: 430px;
+*/
+    margin-bottom: 45px;
+}
+.dvSiteNews
+{
+    min-height: 300px;
+}
+.csCenterMaskot
+{
+    float: right;
+    /*border: solid 10px #a29a9a;*/
+    width: 180px;
+    height: 300px;
+}
+.csInfoLabel
+{
+    width: 260px;
+    background: transparent url(http://localhost:1994/web/img/infolabel_bg_lgt.png) no-repeat scroll 0 0;
+    padding: 0 0 0 3px;
+}
+.csInfoLabel div
+{
+    background: transparent url(http://localhost:1994/web/img/infolabel_bg_rgt.png) no-repeat scroll right 0;
+    padding: 0 3px 0 0;    
+}
+.csInfoLabel div div
+{
+    background: transparent url(http://localhost:1994/web/img/infolabel_bg.png) repeat-x scroll 0 0;
+    height: 35px;
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: normal;
+    color: #bdbbbb;
+    text-align: center;
+    padding: 8px 0;
+    /*
+    border-bottom: solid 1px #8c8887;
+    border-top: solid 1px #8c8887;
+    text-align: center;
+*/
+}
+.csInfoLabel div div span
+{
+    font-weight: bold;
+    color: White;
+}
+.csInfoLabel div div a
+{
+    color: White;
+    margin-right: 10px;
+}
+.csCenterChart
+{
+    margin: 60px 0 20px 0;    
+}
+
+#dvAfishaDefaultPage
+{
+    line-height: 17px;
+    margin-top: 100px;
+    width: 132px;
+}
+.csLeftH
+{
+    font-family: Tahoma;
+    font-size: 19px;
+    font-weight: normal;
+    color: #e97e48;    
+}
+.csLeftDate
+{
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: bold;
+    color: #a4a1a1;
+    margin-bottom: 5px;
+}
+.csLeftContent
+{
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: normal;
+    color: White;
+    margin-bottom: 10px;
+}
+.csLeftContent a
+{
+    color: #e97e48;
+}
+.csLeftTodayEvent
+{
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: normal;
+    color: White;
+    margin-bottom: 10px;
+    line-height: 17px;
+    padding-bottom: 10px;
+    border-bottom: dashed 1px #cdc9c9;
+}
+.csLeftTodayEvent h5
+{
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.csLeftTodayEvent a
+{
+    font-weight: bold;
+    color: #e97e48;
+}
+
+/*charts*/
+.dvChartTableDiv
+{
+    padding: 3px 24px 12px 24px; 
+    background-color: #474140;
+    margin-bottom: 0px !important;
+}
+.tblChartTable
+{
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    color: White;
+    
+    margin-top: 0px;
+    border-bottom-style: none;
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+    background-color: #474140;
+}
+.tblChartTable_Header
+{
+    background-color: #474140;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: left;
+    height: 25px;
+    color: #d97643;
+}
+.tblChartTable_Row
+{
+    background-color: #474140;
+    color: White;
+    font-family: Verdana;
+    font-size: 12px;
+}
+.tblChartTable_Row td
+{
+    padding-top: 14px;
+}
+
+.tblChartTable_AltRow
+{
+    color: #898686;
+    font-family: Verdana;
+    font-size: 10px;
+    height: 40px;
+}
+
+.dvHeadSeparatorChartTable
+{
+    background: transparent url(http://localhost:1994/web/img/grid_separator_bg.png) repeat-x;
+    height: 3px;    
+}
+
+.csChartMenu
+{
+    height: 30px;    
+}
+.csChartMenu div
+{
+/*    border: solid 1px white;*/
+}
+.csChartItem
+{
+    margin: 3px 1px 0 0;
+    width: 126px;
+    float: left;
+    position: relative;
+
+    background: transparent url(http://localhost:1994/web/img/chartmenuitem_bg_lgt.png) no-repeat scroll 0 0;
+    padding: 0 0 0 3px;
+}
+.csChartItem div
+{
+    background: transparent url(http://localhost:1994/web/img/chartmenuitem_bg_rgt.png) no-repeat scroll right 0;
+    padding: 0 3px 0 0 !important;
+    margin: 0 !important;
+}
+.csChartItem div div
+{
+    background: transparent url(http://localhost:1994/web/img/chartmenuitem_bg.png) repeat-x scroll 0 0;
+    height: 24px;
+    padding: 3px 0 0 0 !important;
+    margin: 0 !important;
+    text-align: center;
+}
+.csChartItem div div a
+{
+    color: White;
+}
+
+.csChartItemSelected
+{
+    position: relative;
+    z-index: 1000;
+    height: 30px;
+    width: 127px;
+    float: left;
+}
+.csChartItemSelectedCenter
+{
+    padding-top: 5px;    
+    background-color: #474140;
+    height: 29px;
+    text-align: center;        
+}
+
+.dvHeadChartTable
+{
+    background: transparent url(http://localhost:1994/web/img/charttbl_head_bg_lgt.png) no-repeat scroll 0 0;
+    padding: 0 0 0 2px;
+    margin-bottom: 0 !important;
+}
+.dvHeadChartTable div
+{
+    background: transparent url(http://localhost:1994/web/img/charttbl_head_bg_rgt.png) no-repeat scroll right 0;
+    padding: 0 2px 0 0;
+    margin-bottom: 0px !important;
+}
+
+.dvHeadChartTable div div
+{
+    background-image: none;
+    height: 2px;
+    background-color: #474140;
+    margin-bottom: 0px !important;
+}
+
+.dvFootChartTable
+{
+    background: transparent url(http://localhost:1994/web/img/charttbl_foot_bg_lgt.png) no-repeat scroll 0 0;
+    padding: 0 0 0 2px;
+    margin-top: 0 !important;
+}
+.dvFootChartTable div
+{
+    background: transparent url(http://localhost:1994/web/img/charttbl_foot_bg_rgt.png) no-repeat scroll right 0;
+    padding: 0 2px 0 0;
+    margin-top: 0px !important;
+}
+
+.dvFootChartTable div div
+{
+    background-image: none;
+    height: 2px;
+    background-color: #474140;
+    margin-top: 0px !important;
+}
+
+.csChartTitle
+{
+    font-weight: bold;
+    color: White;
+    text-decoration: underline;
+}
+.csChartAuth
+{
+    font-size: 12px;
+    color: #e97e48;
+    font-weight: normal;
+    text-decoration: none;
+}
+.csChartRating
+{
+    font-weight: bold;
+}
+.csChartVote
+{
+    font-weight: bold;
+    color: #e97e48;
+    text-decoration: underline;
+}
+.csChartSub
+{
+    font-size: 11px;
+    font-weight: normal;
+    color: White;
+    text-decoration: underline;
+}

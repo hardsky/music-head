@@ -1,0 +1,39 @@
+﻿@import url(http://localhost:1994/web/styles/base_simple_style.css);
+@import url(http://localhost:1994/web/styles/grid_style.css);
+
+.sitenews_header
+{
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 19px;
+    font-weight: normal;
+    color: #e97e48;    
+}
+/*such izvrat for opera*/
+.sitenews_block tr
+{
+    border-style: none;
+    border-width: 0px;
+}
+.sitenews_block td
+{
+    border-style: none;
+    border-width: 0px;
+}
+.sitenews_block_title
+{
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+}
+.sitenews_block_date
+{
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: bold;
+    color: #a4a1a1;    
+}
+.sitenews_block_more
+{
+    font-size: 10px !important;
+}

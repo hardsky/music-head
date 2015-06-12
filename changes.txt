@@ -1,0 +1,5 @@
+13.03.10
+some 'cosmetic' changes:
+-login features (remember, new psw, log on 'Enter' button)
+-remove captcha (except registration)
+-move to atlas editor

@@ -1,0 +1,298 @@
+﻿
+#dvMain
+{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*inside dvMain*/
+#dvHead
+{
+    background: transparent url(http://localhost:1994/web/img/header_bg.png) repeat-x scroll 0 0;    
+    margin: 0;
+    padding: 15px 130px 0 130px;
+    height: 200px;    
+}
+#dvHeadBGLight
+{
+    background: transparent url(http://localhost:1994/web/img/light.png) no-repeat scroll 0 0;    
+}
+#dvContent
+{
+    padding: 0 130px 0 130px;
+    margin-top: 50px;
+    min-height: 650px;
+    font-size: 12px;
+    font-family: Verdana;
+    color: #e4dfdf;
+}
+#dvFooter
+{
+    background: transparent url(http://localhost:1994/web/img/foot_bg.jpg) repeat-x scroll 0 0;    
+    height: 122px;
+    padding: 15px 130px 0 130px;    
+}
+
+/*inside dvHead*/
+#dvLanguage
+{
+    width: 70px;
+    float: right;
+}
+
+#dvLanguage img
+{
+    padding: 0;
+    margin: 0;
+    border-style:none;
+}
+.csOddLang
+{
+    float: left;
+    width: 27px;
+}
+.csEvenLang
+{
+    width: 27px;
+    float: right;
+}
+
+#csImgLogoDiv
+{
+    margin-bottom: 30px;
+}
+.csImgLogo
+{
+    width: 307px;
+    height: 92px;
+}
+#dvMainSearch
+{
+    float:right;
+    margin:40px 0 0;
+    width:280px;
+}
+#dvMainSearchTextBox
+{
+    width: 255px;
+    float: left;
+    background: transparent url(http://localhost:1994/web/img/mainsearch_bg_lgt.png) no-repeat scroll 0 0;
+    padding: 0 0 0 5px;
+}
+
+#dvMainSearchTextBox div
+{
+    float: left;
+    background: transparent url(http://localhost:1994/web/img/mainsearch_bg_rgt.png) no-repeat scroll right 0;
+    padding: 0 5px 0 0;
+}
+
+#dvMainSearchTextBox div div
+{
+    float: left;
+    background: transparent url(http://localhost:1994/web/img/mainsearch_bg.png) repeat-x scroll 0 0;
+    height: 17px;
+    padding: 5px 0 4px 0;
+}
+
+.csMainSearchEdit
+{
+    font-family: Verdana;
+    font-size: 11px;    
+    color: #a29a9a;
+    background-color: Transparent;
+    background-image: none;
+    float: left;
+    border-style: none;
+    width: 175px;
+    height: 14px;
+}
+.csBtnLoupe
+{
+    margin-top: 5px;
+    width: 12px;
+    float: right;
+}
+#dvSearchType
+{
+    background: Transparent none !important;    
+    padding: 0 0 0 0 !important;
+    margin: 0 !important;
+    width: 70px !important;
+    background: transparent none !important;
+    height: 14px !important;
+    float: right !important;
+}
+.spSearchType
+{
+    background-color: Transparent;
+    font-family: Verdana;
+    font-size: 11px;
+    cursor: pointer;
+    color: #a29a9a;
+    border-left: solid 1px #a29a9a;
+    padding: 0 0 0 5px !important;
+    margin: 0 !important;
+}
+
+.TopMenu
+{
+    float: left;
+    padding-top: 0;
+    margin-top: 17px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.ClearFix
+{
+    width: 0px;
+    height: 0px;
+    clear: both;
+}
+
+/*inside dvContent*/
+#dvLeftColumn
+{
+    width: 220px;
+    float: left;
+}
+#dvLeftColumnDefaultPage
+{
+    width: 150px;
+    float: left;
+}
+
+.csCentrColumn
+{
+    margin: 0 180px 0 230px;
+    width: auto;
+    padding: 0;
+    text-align: left;
+}
+
+#dvRightColumn
+{
+    width: 155px;
+    float: right;
+}
+.csRoundMenu
+{
+    margin: 0;
+    background: transparent url(http://localhost:1994/web/img/menu_btn_lgt.jpg) no-repeat scroll 0 0;
+    padding: 0 0 0 4px;
+    width: 100px;
+    float: left;
+    vertical-align: baseline;    
+}
+.csRoundMenu div
+{
+    margin: 0;
+    background: transparent url(http://localhost:1994/web/img/menu_btn_rgt.jpg) no-repeat scroll right 0;
+    padding: 0 4px 0 0;
+    vertical-align: baseline;    
+}
+
+.csRoundMenu div div
+{
+    background: transparent url(http://localhost:1994/web/img/menu_btn_bg.jpg) repeat-x scroll 0 0;    
+    text-align: center;
+    height: 25px;
+    padding: 3px 0px;
+}
+.csRoundMenu a
+{
+    font-size: 15px;
+    font-family: Tahoma;
+    text-decoration: none;
+    color: White;
+    vertical-align: baseline;    
+}
+
+/*selected menu item*/
+.csRoundMenuSelect
+{
+    margin: 0;
+    background: transparent url(http://localhost:1994/web/img/menu_select_btn_lgt.jpg) no-repeat scroll 0 0;
+    padding: 0 0 0 4px;
+    width: 100px;
+    float: left;
+    vertical-align: baseline;    
+}
+.csRoundMenuSelect div
+{
+    margin: 0;
+    background: transparent url(http://localhost:1994/web/img/menu_select_btn_rgt.jpg) no-repeat scroll right 0;
+    padding: 0 4px 0 0;
+    vertical-align: baseline;    
+}
+
+.csRoundMenuSelect div div
+{
+    background: transparent url(http://localhost:1994/web/img/menu_select_btn_bg.jpg) repeat-x scroll 0 0;    
+    text-align: center;
+    height: 25px;
+    padding: 3px 0px;
+}
+.csRoundMenuSelect a
+{
+    font-size: 15px;
+    font-family: Tahoma;
+    text-decoration: none;
+    color: White;
+    vertical-align: baseline;    
+}
+/*inside dvFooter*/
+#spCopyright
+{
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 11px;
+    color: White;
+}
+#spFootMenu
+{
+	display: block;
+    font-family: Verdana;
+    font-size: 11px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 450px;
+}
+
+#spFootMenu a
+{
+    color: White;
+}
+
+.FootMenuItemSelect
+{
+    text-decoration: none;
+    color: #e97e48 !important;
+}
+
+.template_body
+{
+    background-color: #000000;
+    color: White;    
+    padding: 0;
+}
+
+/*Track, Liric pages*/
+.tblOrangeLinks td a
+{
+    color: #d97643;
+    text-decoration: none;
+}
+
+.dvTrack
+{
+    width: 100%;
+}
+
+.dvTrack table
+{
+    margin-bottom: 30px;
+}
+/*end*/
